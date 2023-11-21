@@ -53,3 +53,5 @@ time.sleep(2)
 print('>>>> Connection closed gracefully.')
 time.sleep(2)
 print('\n\n')
+
+# SELECT * FROM pg_stat_activity;
