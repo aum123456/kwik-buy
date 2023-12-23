@@ -1,0 +1,16 @@
+---CREATING ENVIRONMENT USING YAML---
+
+Open anaconda prompt and browse to the directory where the YAML file is stored. Execute the following command:
+
+conda env create -f environment.yml
+
+---EXPORTING ENVIRONMENT AS YAML---
+
+Open anaconda prompt and activate the environment that you want to export. Browse to the directory where you want to export the YAML file and execute the following command:
+
+conda env export > file_name_here.yml
+
+---DELETING A CONDA ENVIRONMENT---
+
+conda deactivate
+conda remove --name env_name_here --all
